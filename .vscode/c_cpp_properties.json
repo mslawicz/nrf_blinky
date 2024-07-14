@@ -4,8 +4,9 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/../../toolchains/cf2149caf2/opt/zephyr-sdk/arm-zephyr-eabi/**",
-                "${workspaceFolder}/../../v2.6.1/zephyr/include/**"
+                "${workspaceFolder}/../../v2.6.1/zephyr/include/",
+                "${workspaceFolder}/../../v2.6.1/zephyr/lib/libc/minimal/include/",
+                "${workspaceFolder}/../../toolchains/cf2149caf2/opt/zephyr-sdk/arm-zephyr-eabi/**"
             ],
             "defines": [
                 "_DEBUG",

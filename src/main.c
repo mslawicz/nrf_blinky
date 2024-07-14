@@ -6,6 +6,7 @@
 
 #include <zephyr/kernel.h>
 #include <zephyr/drivers/gpio.h>
+#include <zephyr/sys/printk.h>
 
 /* 500 msec */
 #define SLEEP_TIME_MS   500
@@ -35,6 +36,8 @@ struct k_thread thread_data_blinky_2;
 int main(void)
 {
 	int ret;
+
+	printk("Hello Zephyr\n");
 
 	/* add another thread */
 	k_tid_t thread_blinky_2;
